@@ -1,0 +1,21 @@
+let adjective = "guapo"
+let noun = "mamado"
+let verb = "tocar"
+let place = "sotano"
+let adjective2 = "moreno"
+let noun2 = "ceviche"
+
+let firstStory = `Once upon a time, there was a(n) ${adjective} ${noun} who loved to eat ${noun2}. The ${noun} lived in a ${place} and had ${adjective2} nostrils that blew fire when it was ${verb}.`;
+
+console.log(`First story: ${firstStory}`);
+
+adjective = "cabello"
+noun = "negro"
+verb = "correr"
+place = "sala"
+adjective2 = "loco"
+noun2 = "frijoles"
+
+let secondStory = `Once upon a time, there was a(n) ${adjective} ${noun} who loved to eat ${noun2}. The ${noun} lived in a ${place} and had ${adjective2} nostrils that blew fire when it was ${verb}.`;
+
+console.log("Second story: " + secondStory);
